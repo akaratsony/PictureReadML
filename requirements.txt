@@ -1,0 +1,10 @@
+sudo iyum install pip
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install transformers 
+
+maybe these are not needed
+pip install fastapi
+pip install "uvicorn[standard]"
+
+pip install "fastapi[standard]"
+
